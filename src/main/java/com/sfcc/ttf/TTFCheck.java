@@ -31,17 +31,6 @@ public class TTFCheck {
 
 		gFile.genereateTTF(sourceandptu);
 		gFile.sortTTF(gFile.genereateTTF(sourceandptu));
-
-		for (HashMap.Entry<String, List<String>> entry : gFile.sortTTF(gFile.genereateTTF(sourceandptu)).entrySet()) {
-
-
-			System.out.println(entry.getKey());
-			for (Iterator<String> iterator = entry.getValue().iterator(); iterator.hasNext();) {
-				String type = (String) iterator.next();
-				System.out.println("\t"+type);
-			}
-			
-		}	
 		
 		gFile.groupTTF();
 		gFile.sortTTF(gFile.groupTTF());
