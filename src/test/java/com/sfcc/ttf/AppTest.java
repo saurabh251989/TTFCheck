@@ -1,4 +1,4 @@
-package com.sfcc.rename;
+package com.sfcc.ttf;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
